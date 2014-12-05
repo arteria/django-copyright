@@ -6,16 +6,18 @@ Install copyright from the PyPI using:
 
     pip install django-copyright
 
-Add `django-copyright` to your `INSTALLED_APPS`
+Add `copyright` to your `INSTALLED_APPS`
 
     INSTALLED_APPS = (
     
-        'django-copyright',
+        'copyright',
     )
 
 set a `COPY_START_YEAR` in the django settings (this is an ingeter)
 
     COPY_START_YEAR = 2009
+    
+to span a range.
 
 
 ## Usage
