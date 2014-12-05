@@ -1,10 +1,9 @@
 # aR-Copyright #
----
 
 
 ##Setup##
 
-install app using the Shell, type:
+install package:
 
     pip install django-copyright
 
@@ -22,6 +21,6 @@ set a `COPY_START_YEAR` in the django settings (this is an ingeter)
 
 ##Usage##
 
-import copyrighttags in the template with `{% load copyrighttags %}`
+load copyrighttags in the template with `{% load copyrighttags %}`
 
-place `{{ request|getCopyrightYears }}` in the template, this will return something like "2009 - 2012"
+place `{% getCopyrightYears %}` in the template, this will return a string like "2009 - 2012"
