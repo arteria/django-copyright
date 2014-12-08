@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 version = copyright.__version__
 
 setup(
-    name='django-Copyright',
+    name='django-copyright',
     version=version,
     packages=find_packages(),
     license='BSD',
