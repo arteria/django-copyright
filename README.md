@@ -1,6 +1,6 @@
 # django-copyright
 
-[django-copyright](https://github.com/arteria/django-copyrigh) keeps your site's copyright notice up-to-date. Forever and ever.
+[django-copyright](https://github.com/arteria/django-copyright) keeps your site's copyright notice up-to-date. Forever and ever.
 
 ## Installation
 
