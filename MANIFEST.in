@@ -1,5 +1,4 @@
-include LICENSE.txt
 include README.md
-include requirements.txt
+include LICENSE.txt
 recursive-include copyright/templates *
 global-exclude *.orig *.pyc *.log *.swp

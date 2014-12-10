@@ -21,6 +21,6 @@ def getCopyrightYears():
     thisYear = datetime.datetime.now().year
     if hasattr(settings, "COPY_START_YEAR"):
         copyYearStart = getattr(settings, "COPY_START_YEAR", )
-        if copyYearStart is not None and copyYearStart != thisYear:
+        if copyYearStart and copyYearStart is not thisYear:
             return "%s - %s" % (str(settings.COPY_START_YEAR), str(thisYear))
     return str(thisYear)
